@@ -1,0 +1,80 @@
+############################
+# .NET / C#
+############################
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+############################
+# Rider / JetBrains
+############################
+.idea/
+*.sln.iml
+
+############################
+# NuGet
+############################
+.nuget/
+packages/
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
+secrets/
+*.secret.json
+appsettings.*.json
+
+# Keep base config
+!appsettings.json
+
+############################
+# Docker
+############################
+**/docker-data/
+**/docker-volume/
+**/volumes/
+
+############################
+# Node / Frontend (React)
+############################
+node_modules/
+dist/
+build/
+.vite/
+.next/
+
+############################
+# Test results / coverage
+############################
+TestResults/
+coverage/
+
+############################
+# Database files
+############################
+*.mdf
+*.ldf
+
+############################
+# Temporary files
+############################
+*.tmp
+*.swp
+*.bak
