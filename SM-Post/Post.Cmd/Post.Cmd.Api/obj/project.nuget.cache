@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q06/4/6MnyQ=",
+  "success": true,
+  "projectFilePath": "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/balazsmartikan/.nuget/packages/microsoft.aspnetcore.openapi/9.0.11/microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "/home/balazsmartikan/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
