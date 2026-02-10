@@ -1,4 +1,4 @@
-namespace Post.Cmd.Domain.Commands
+namespace Post.Cmd.Domain.Commands;
 
 public class RemoveCommentCommand : BaseCommmand
 {

@@ -70,6 +70,70 @@
         }
       }
     },
+    "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/Post.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/Post.Common.csproj",
+        "projectName": "Post.Common",
+        "projectPath": "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/Post.Common.csproj",
+        "packagesPath": "/home/balazsmartikan/.nuget/packages/",
+        "outputPath": "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/balazsmartikan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib64/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/balazsmartikan/socialmedia-app/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/home/balazsmartikan/socialmedia-app/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -95,6 +159,9 @@
             "projectReferences": {
               "/home/balazsmartikan/socialmedia-app/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
                 "projectPath": "/home/balazsmartikan/socialmedia-app/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/Post.Common.csproj": {
+                "projectPath": "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/Post.Common.csproj"
               },
               "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj": {
                 "projectPath": "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj"
@@ -182,6 +249,9 @@
             "projectReferences": {
               "/home/balazsmartikan/socialmedia-app/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
                 "projectPath": "/home/balazsmartikan/socialmedia-app/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/Post.Common.csproj": {
+                "projectPath": "/home/balazsmartikan/socialmedia-app/SM-Post/Post.Common/Post.Common.csproj"
               }
             }
           }
@@ -279,7 +349,7 @@
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[10.0.2, )"
+              "version": "[9.0.12, )"
             }
           },
           "imports": [
