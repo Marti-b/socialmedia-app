@@ -1,6 +1,8 @@
-namespace Post.Cmd.Domain.Commands;
+using CQRS.Core.Commands;
 
-public class RemoveCommentCommand : BaseCommmand
+namespace Post.Cmd.Api.Commands;
+
+public class RemoveCommentCommand : BaseCommand
 {
     
 }
