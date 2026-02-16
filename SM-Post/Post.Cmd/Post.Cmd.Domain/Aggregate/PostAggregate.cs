@@ -7,9 +7,11 @@ public class PostAggregate: AggregateRoot
 {
      private bool _active;
      private string _author;
-     private readonly Dictionary<Guid, Tuple<string, string>> _comments = new();
+     public record Comment(string Username, string Text);
+     private readonly Dictionary<Guid, Comment> _comments = new();
 
-     public bool Active { get => _active; set => _active = value; }
+
+     public bool Active => _active;
 
      //Aggragate should always have empty ctor 
      public PostAggregate()
@@ -104,7 +106,10 @@ public class PostAggregate: AggregateRoot
 
      public void Apply(CommentAddedEvent @event)
      {
+          //do I need to set Id again or it is redundant?!
           _id = @event.Id;
-          _comments.Add(@event.CommentId, new Tuple<string, string>(@event.Username, @event.Comment));
+          _comments.Add(
+               @event.CommentId, 
+               new Comment(@event.Username, @event.Comment));
      }
 }
