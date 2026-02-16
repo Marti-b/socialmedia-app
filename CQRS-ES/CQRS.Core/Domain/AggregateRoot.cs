@@ -1,8 +1,8 @@
-using CQRS.Core.Commands;
+using CQRS.Core.Events;
 
 namespace CQRS.Core.Domain;
 
-public abstract class AggrageRoot
+public abstract class AggregateRoot
 {
     protected Guid _id;
     private readonly List<BaseEvent> _changes = new();
